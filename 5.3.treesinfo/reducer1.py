@@ -3,21 +3,20 @@
 #OUT: type \t count
 
 import sys
-from operator import itemgetter
-from itertools import groupby
 
-def read_mapper_output(file, separator='\t'):
-    for line in file:
-        yield line.rstrip().split(separator, 1)
+pre_type = None
+total = 0
 
-def main():
-
-    data = read_mapper_output(sys.stdin)
+for line in sys.stdin:
     
-    for current_type, group in groupby(data, itemgetter(0)):
-        total_count = sum(int(count) for current_type, count in group)
-        
-        print("%s%s%d" % (current_type, '\t', total_count))
+    curr_type, count = line.strip().split('\t', 1)
+    if pre_type == None:
+        pre_type = curr_type
+    if curr_type != pre_type:
+        print("%s\t%s" % (pre_type, str(total)))
+        total = 0
+    
+    pre_type = curr_type
+    total += 1
 
-if __name__ == '__main__':
-    main()
+print("%s\t%s" % (pre_type, str(total)))
