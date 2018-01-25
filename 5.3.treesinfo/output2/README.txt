@@ -9,7 +9,7 @@ Araucaria	9.00
 Broussonetia	12.00
 Calocedrus	20.00
 Catalpa	15.00
-Cedrus	6.00
+Cedrus	30.00
 Celtis	16.00
 Corylus	20.00
 Davidia	12.00
@@ -36,4 +36,4 @@ Taxodium	35.00
 Taxus	13.00
 Tilia	20.00
 Ulmus	15.00
-Zelkova	30.0
+Zelkova	30.00
