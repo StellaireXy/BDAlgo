@@ -1,4 +1,6 @@
 # BDAlgo
+Deadline 15th Feb.
+
 Homework for Big Data Algorithm (Hadoop practice)
 
 projects to upload
