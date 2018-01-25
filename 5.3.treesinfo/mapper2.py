@@ -29,8 +29,8 @@ for line in sys.stdin:
         h = float(hauteur)
         hei = '%.2f' %h
         l = len(hei)
-        height = '0'*(3 - l) + hei
-        type_height = genre + ' ' + hei
+        height = '0'*(5 - l) + hei
+        type_height = genre + ' ' + height
         print("%s\t%s" % (type_height, '1'))
     
     n += 1
