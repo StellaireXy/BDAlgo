@@ -1,6 +1,6 @@
 Which 10 users have the highest PageRank scores in this social network? List them in descending order.
 
-No. Node    PageRank
+No. NodeId  PageRank
 1.  18      246.57204
 2.  737     171.27110
 3.  118     115.36466
