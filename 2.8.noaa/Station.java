@@ -25,16 +25,13 @@ public class Station {
             BufferedReader br = new BufferedReader(isr);
             
             int n = 0;
-            br.readline();
+            String line = br.readline();
             
             while (br != null) {
                 
                 n = n + 1
-                if (n > 22) {
-                    
-                    // Process of the current line
-                    System.out.println(br.readLine().substring(0, 7) + " " + br.readLine().substring(13, 42) + " " + br.readLine().substring(43, 45) + " " + br.readLine().substring(74, 81));
-                    // go to the next line
+                if (n > 22) {     
+                    System.out.println(line.substring(0, 7) + " " + line.substring(13, 42) + " " + line.substring(43, 45) + " " + line.substring(74, 81));
                 }
                 br.readLine();
             }
