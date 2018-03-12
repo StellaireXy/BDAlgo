@@ -1,7 +1,6 @@
 # BDAlgo
-Deadline 15th Feb.
 
-Homework for Big Data Algorithm (Hadoop practice)
+Big Data Algorithm (Hadoop & Spark practice)
 
 projects to upload
 - 2.7 arbres
