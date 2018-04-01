@@ -1,6 +1,6 @@
 # BDAlgo
 
-Big Data Algorithm (Hadoop & Spark practice)
+Big Data Algorithm (Hadoop practice)
 
 projects to upload
 - 2.7 arbres
